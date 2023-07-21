@@ -403,7 +403,7 @@ class Markdown:
             All list items.
         
         style
-            What characters to use list.
+            What characters to use for the list.
             One of ``-``, ``*`` or ``+``.
         """
         # TODO: initial indent when width is reached
