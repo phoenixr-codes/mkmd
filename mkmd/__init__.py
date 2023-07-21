@@ -182,8 +182,8 @@ class Markdown:
         
         .. attention::
            This method should only be used by subclasses.
-           :meth:`add_paragraph` is more suitable most of the
-           times.
+           The wrapper method :meth:`add_paragraph` is more
+           suitable most of the times.
         
         Parameters
         ----------
@@ -339,7 +339,7 @@ class Markdown:
         Parameters
         ----------
         label
-            The unique lable of the reference.
+            The unique label of the reference.
         
         url
             The url to link to.
