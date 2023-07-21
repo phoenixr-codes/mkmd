@@ -181,9 +181,9 @@ class Markdown:
         Adds lines.
         
         .. attention::
-           This method should only used by subclasses. Usually
-           the wrapper method :meth:`add_paragraph` does the
-           job.
+           This method should only be used by subclasses.
+           :meth:`add_paragraph` is more suitable most of the
+           times.
         
         Parameters
         ----------
